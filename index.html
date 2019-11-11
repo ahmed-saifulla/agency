@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"></script>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travelle</title>
+</head>
+
+<body>
+    <div class="navbar-fixed">
+        <nav class="teal">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo">Travelle</a>
+                    <a href="" class="sidenav-trigger" data-target="mobile-nav">
+                        <i class="material-icons">menu</i>
+                    </a>
+
+                    <ul class="right hide-on-med-and-down">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Search</a>
+                        </li>
+                        <li>
+                            <a href="#">Popular Places</a>
+                        </li>
+                        <li>
+                            <a href="#">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- For SideNav  --> 
+    <ul id="mobile-nav" class="sidenav teal">
+        <li>
+            <a href="#" class="white-text">Home</a>
+        </li>
+        <li>
+            <a href="#" class="white-text">Search</a>
+        </li>
+        <li>
+            <a href="#" class="white-text">Popular Places</a>
+        </li>
+        <li>
+            <a href="#" class="white-text">Gallery</a>
+        </li>
+        <li>
+            <a href="#" class="white-text">Contact</a>
+        </li>
+    </ul>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+    // Side Nav
+    const sideNav = document.querySelector('.sidenav');
+    M.Sidenav.init( sideNav , {}); 
+    </script>
+</body>
+
+</html>
